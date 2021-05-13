@@ -1,0 +1,8 @@
+#internal 
+-e .
+
+#external
+Flask
+Flask-WTF
+Flask-RESTful
+
