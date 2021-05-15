@@ -17,5 +17,5 @@ fig.add_trace(go.Heatmap(
     x=df3['DAY'], y=df3['LST_TIME'], z=df3['T_HR_AVG'], colorscale='jet', name="YumaAZ", zmin=5, zmax=40), row=1, col=3)
 
 fig.update_layout(title="subplots")
-fig.subplot_titles = ['asd', 'fdsf', 'fsdf']
+
 pyo.plot(fig)
